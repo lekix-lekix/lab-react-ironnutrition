@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .App-logo {
@@ -35,4 +37,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#formAndSearch {
+  width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.formSearchBars {
+  width: 50vw;
+}
+
+.nothingHere {
+  position: relative;
+  left: 40vw;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
 }
